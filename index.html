@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Cronômetro</title>
+</head>
+<body>
+
+    <div id="timer">
+        <label class="princ" id="dHora">0</label>
+        <label class="princ" id="uHora">0</label>
+        <label class="princ" >:</label>
+        <label class="princ" id="dMin">0</label>
+        <label class="princ" id="uMin">0</label>
+        <label class="princ" >:</label>
+        <label class="princ" id="dSeg">0</label>
+        <label class="princ" id="uSeg">0</label>
+        <label class="princ" >.</label>
+        <label class="princ" id="dCent">0</label>
+        <label class="princ" id="uCent">0</label>
+    </div>
+
+    <div id="parciais">
+        <div id="titulos">
+            <label class="titulo" >Volta</label>
+            <label class="titulo" >Tempo Volta</label>
+            <label class="titulo" >Tempo Total</label>
+        </div>
+        <div id="tempos">
+            
+        </div>
+    </div>
+
+    <div id="btns">
+        <button disabled class="btn" id="stop"> <img class="icone" src="img/icons8-pausa-90.png"> </button>
+        <button class="btn" id="start"> <img class="icone" src="img/icons8-reproduzir-96.png"> </button>
+        <button disabled class="btn" id="lap"> <img class="icone" src="img/icons8-desfazer-90.png" > </button>
+        <button disabled class="btn" id="cont"> <img id="icCont" class="icone" src="img/icons8-botão-continuar-90.png" > </button>
+        <button disabled class="btn" id="res"> <img class="icone" src="img/icons8-parar-90.png" > </button>
+    </div>
+    <div id="keys">
+        <label class="key shift">Left Shift</label><label class="key" id="space">Space</label><label class="key shift">Right Shift</label>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
